@@ -1,7 +1,7 @@
 
 
 Ranking evaluation script. This script is written for the purposes of Quality Estimation Ranking 
-in the field of Machine Translation, but it could in principle work for other tasks. It also adopts 
+in the field of Machine Translation, but it could in principle work for other tasks[1]. It also adopts 
 a few metrics from the IR ranking shared task organized by Yahoo a few years ago. This script is under
 testing and development, so please refer to the source file for further explanations and citations  
 
@@ -27,6 +27,11 @@ sentence. It should therefore look like
 	...
 </judgedsentence>
 
-  
+
+There is also a iPython notebook that demonstrates how to use it for tasks outside of Machine Translation.
+
+Hipster Machine Learning Metrics Made Easy
+http://nbviewer.ipython.org/gist/waylonflinn/8338948
+
 Author: Eleftherios Avramidis
 License: GNU
